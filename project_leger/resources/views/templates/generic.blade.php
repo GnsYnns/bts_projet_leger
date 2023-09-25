@@ -9,7 +9,7 @@
 
         @include('templates.header')
 
-        @yield('content')
+        @yield('contents')
 
         @include('templates.footer')
 
