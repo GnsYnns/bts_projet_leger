@@ -1,0 +1,14 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "npm",
+			"script": "install",
+			"path": "project_leger",
+			"group": "clean",
+			"problemMatcher": [],
+			"label": "npm: install - project_leger",
+			"detail": "install dependencies from package"
+		}
+	]
+}
