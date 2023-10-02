@@ -1,8 +1,7 @@
-@import "aside.css";
 @import "generic.css";
-@import "footer.css";
+@import "styles.css";
 @import "header.css";
 @import "main.css";
-@import "styles.css";
+@import "footer.css";
+@import "aside.css";
 @import "filter-popup.css";
-/*@import "filter-popup_new.css";*/
