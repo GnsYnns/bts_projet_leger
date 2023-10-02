@@ -3,7 +3,7 @@
         <div class="first-container">
             <!-- logo for the larger screen only  -->
             <div class="logo">
-                <img src="./icons/airbnb-logo-2.png" alt="airbnb logo" />
+                <img src="icons/airbnb-logo-2.png" alt="airbnb logo" />
             </div>
             <div class="airbnb-name">
                 <h1>airbnb</h1>
