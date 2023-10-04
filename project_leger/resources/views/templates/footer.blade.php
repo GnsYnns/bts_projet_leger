@@ -33,7 +33,7 @@
             </div>
             <div class="text">
                 <a href="">
-                    <h5>English (GB)</h5>
+                    <a href="/en">English (GB)</a>
                 </a>
             </div>
             <div class="text">

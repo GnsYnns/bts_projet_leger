@@ -23,17 +23,17 @@
                 <div class="desktop-options">
                     <div class="text">
                         <a href="#">
-                            <h4>Anywhere</h4>
+                            <h4>{{ __('Anywere')}}</h4>
                         </a>
                     </div>
                     <div class="text">
                         <a href="#">
-                            <h4>Any week</h4>
+                            <h4>{{ __('Add guests')}}</h4>
                         </a>
                     </div>
                     <div class="last-text">
                         <a href="#">
-                            <h4>Add guests</h4>
+                            <h4>{{ __('Add guests')}}</h4>
                         </a>
                     </div>
                     <div class="search">
@@ -53,8 +53,8 @@
                 <!-- top bar  -->
                 <div class="top-bar-text">
                     <a href="#">
-                        <h4>Anywhere</h4>
-                        <p>Any week <span>·</span> <span>Add guests</span></p>
+                        <h4>{{ __('Anywere')}}</h4>
+                        <p>{{ __('Any week')}}<span>·</span> <span>{{ __('Add guests')}}</span></p>
                     </a>
                 </div>
 
