@@ -3,16 +3,13 @@
 <footer id="footer">
     <div class="support">
         <h4>Support</h4>
-        <a href="#footer">
+        <a href="">
             <p>Help Centre</p>
         </a>
-        <a href="#footer">
-            <p>AirCover</p>
-        </a>
-        <a href="#footer">
+        <a href="">
             <p>Supporting people with disabilities</p>
         </a>
-        <a href="#footer">
+        <a href="">
             <p>Cancellation options</p>
         </a>
     </div>
@@ -32,15 +29,15 @@
 
         <div class="config">
             <div class="icon">
-                <a href="#footer"><img src="./icons/world.svg" alt="world icon" /></a>
+                <a href=""><img src="./icons/world.svg" alt="world icon" /></a>
             </div>
             <div class="text">
-                <a href="#footer">
+                <a href="">
                     <h5>English (GB)</h5>
                 </a>
             </div>
             <div class="text">
-                <a href="#footer">
+                <a href="">
                     <h5>£ GBP</h5>
                 </a>
             </div>

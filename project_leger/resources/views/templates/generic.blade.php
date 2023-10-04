@@ -10,7 +10,7 @@
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 
     <!-- title of the page  -->
-    <title>Fake Airbnb</title>
+    <title>Welocation</title>
 </head>
 
 <body>
