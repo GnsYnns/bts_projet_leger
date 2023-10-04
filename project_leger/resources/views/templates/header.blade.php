@@ -64,7 +64,7 @@
 
                     <div class="desktop-filter" tabindex="0">
                         <a href="#filter-popup"><img src="./icons/filter.png" alt="filter icon" />
-                            <p>Filters</p>
+                            <p>{{__('Filters')}}</p>
                         </a>
                     </div>
 
@@ -83,7 +83,7 @@
                             <div class="filter-menu">
                                 <form>
                                     <div class="filter-heading">
-                                        <h4>Filters</h4>
+                                        <h4>{{__('Filters')}}</h4>
                                         <a href="#" tabindex="0">
                                             <img class="icon" src="./icons/close.svg" alt="cross icon" /></a>
                                     </div>
@@ -91,11 +91,11 @@
                                     <!-- price range selection  -->
 
                                     <div class="price">
-                                        <h3>Price range</h3>
-                                        <p>The average nightly price is £181</p>
+                                        <h3>{{__('Price range')}}</h3>
+                                        <p>{{__('The average nightly price is')}} £181</p>
                                         <div class="range">
                                             <div class="price-box">
-                                                <div class="price-text">min price</div>
+                                                <div class="price-text">{{__('min price')}}</div>
                                                 <div class="input-area">
                                                     <div>£</div>
 
@@ -107,7 +107,7 @@
                                             <div class="divider">-</div>
 
                                             <div class="price-box">
-                                                <div class="price-text">max price</div>
+                                                <div class="price-text">{{__('max price')}}</div>
                                                 <div class="input-area">
                                                     <div>£</div>
 
@@ -121,12 +121,12 @@
                                     <!-- place type selection  -->
 
                                     <div class="place-type">
-                                        <h3>Type of place</h3>
+                                        <h3>{{__('Type of place')}}</h3>
                                         <div class="place-grid">
                                             <div class="place-type-option">
                                                 <div class="place-text">
-                                                    <h5>Entire place</h5>
-                                                    <p>A place all to yourself</p>
+                                                    <h5>{{__('Entire place')}}</h5>
+                                                    <p>{{__('A place all to yourself')}}</p>
                                                 </div>
                                                 <div class="checkbox-container">
                                                     <input class="checkbox" type="checkbox" id="entire" name="entire" />
@@ -135,10 +135,9 @@
 
                                             <div class="place-type-option">
                                                 <div class="place-text">
-                                                    <h5>Private room</h5>
+                                                    <h5>{{_('Private room')}}</h5>
                                                     <p>
-                                                        Your own room in a home or a hotel, plus some
-                                                        shared common spaces
+                                                        {{__('Your own room in a home or a hotel, plus some shared common spaces')}}
                                                     </p>
                                                 </div>
                                                 <div class="checkbox-container">
@@ -149,10 +148,9 @@
 
                                             <div class="place-type-option">
                                                 <div class="place-text">
-                                                    <h5>Shared room</h5>
+                                                    <h5>{{__('Shared room')}}</h5>
                                                     <p>
-                                                        A sleeping space and common areas that may be
-                                                        shared with others
+                                                        {{__('A sleeping space and common areas that may be shared with others')}}
                                                     </p>
                                                 </div>
                                                 <div class="checkbox-container">
@@ -165,13 +163,13 @@
                                     <!-- rooms and beds  -->
 
                                     <div class="rooms">
-                                        <h3>Rooms and beds</h3>
+                                        <h3>{{__('Rooms and beds')}}</h3>
                                         <div class="space">
-                                            <h5>Bedrooms</h5>
+                                            <h5>{{__('Bedrooms')}}</h5>
                                             <div class="scroll-bar" tabindex="0">
                                                 <div class="number">
                                                     <input type="radio" id="any" name="room" value="any" />
-                                                    <label for="any">Any</label>
+                                                    <label for="any">{{__('Any')}}</label>
                                                 </div>
 
                                                 <div class="number">
@@ -226,11 +224,11 @@
                                             </div>
                                         </div>
                                         <div class="space">
-                                            <h5>Beds</h5>
+                                            <h5>{{__('Beds')}}</h5>
                                             <div class="scroll-bar" tabindex="0">
                                                 <div class="number">
                                                     <input type="radio" id="bed-any" name="bed" value="any" />
-                                                    <label for="bed-any">Any</label>
+                                                    <label for="bed-any">{{__('Any')}}</label>
                                                 </div>
 
                                                 <div class="number">
@@ -285,11 +283,11 @@
                                             </div>
                                         </div>
                                         <div class="space">
-                                            <h5>Bathrooms</h5>
+                                            <h5>{{__('Bathrooms')}}</h5>
                                             <div class="scroll-bar" tabindex="0">
                                                 <div class="number">
                                                     <input type="radio" id="bath-any" name="bath" value="any" />
-                                                    <label for="bath-any">Any</label>
+                                                    <label for="bath-any">{{__('Any')}}</label>
                                                 </div>
 
                                                 <div class="number">
@@ -348,13 +346,13 @@
                                     <!-- property stuff  -->
 
                                     <div class="property">
-                                        <h3>Property type</h3>
+                                        <h3>{{__('Property type')}}</h3>
                                         <div class="property-grid">
                                             <div class="property-item">
                                                 <input class="property-checkbox" type="checkbox" id="house" name="house"
                                                     value="house" />
                                                 <label for="house"><img src="./icons/house.svg" alt="house-icon" />
-                                                    <p>House</p>
+                                                    <p>{{__('House')}}</p>
                                                 </label>
                                             </div>
 
@@ -362,7 +360,7 @@
                                                 <input class="property-checkbox" type="checkbox" id="flat" name="flat"
                                                     value="flat" />
                                                 <label for="flat"><img src="./icons/flat.svg" alt="flat-icon" />
-                                                    <p>Flat</p>
+                                                    <p>{{__('Flat')}}</p>
                                                 </label>
                                             </div>
                                             <div class="property-item">
@@ -370,14 +368,14 @@
                                                     name="guesthouse" value="guesthouse" />
                                                 <label for="guesthouse"><img src="./icons/guesthouse.svg"
                                                         alt="guesthouse-icon" />
-                                                    <p>Guest house</p>
+                                                    <p>{{__('Guest house')}}</p>
                                                 </label>
                                             </div>
                                             <div class="property-item">
                                                 <input class="property-checkbox" type="checkbox" id="hotel" name="hotel"
                                                     value="hotel" />
                                                 <label for="hotel"><img src="./icons/hotel.svg" alt="hotel-icon" />
-                                                    <p>Hotel</p>
+                                                    <p>{{__('Hotel')}}</p>
                                                 </label>
                                             </div>
                                         </div>
@@ -386,7 +384,7 @@
                                     <!-- amenities  -->
 
                                     <div class="amenities" id="amenities">
-                                        <h3>Amenities</h3>
+                                        <h3>{{__('Amenities')}}</h3>
                                         <h4>Essentials</h4>
 
                                         <div>
