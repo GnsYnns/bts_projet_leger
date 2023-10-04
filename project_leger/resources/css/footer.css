@@ -1,36 +1,110 @@
 /* footer  */
 
 footer {
-  padding-bottom: 12rem;
-  background-color: #f3f3f3;
-  font-size: 1.5rem;
-  border-top: 0.01rem solid rgb(216, 216, 216);
-  line-height: 2;
+    padding-bottom: 12rem;
+    background-color: #f3f3f3;
+    font-size: 1.5rem;
+    border-top: 0.01rem solid rgb(216, 216, 216);
+    line-height: 2;
 }
 
 footer a {
-  color: rgb(39, 39, 39);
-  font-weight: 300;
+    color: rgb(39, 39, 39);
+    font-weight: 300;
 }
 
 footer .support {
-  border-bottom: 0.01rem solid rgb(230, 230, 230);
+    border-bottom: 0.01rem solid rgb(230, 230, 230);
 }
 
 footer .config {
-  display: flex;
-  gap: 2rem;
-  align-items: center;
+    display: flex;
+    gap: 2rem;
+    align-items: center;
 }
 
 footer > div {
-  padding: 2rem;
+    padding: 2rem;
 }
 
 footer a:hover {
-  text-decoration: underline;
+    text-decoration: underline;
 }
 
 .ancillary .icon {
-  width: 2rem;
+    width: 2rem;
+}
+
+@media screen and (min-width: 1125px) {
+    .ancillary {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .link-flex {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: normal;
+        align-items: flex-start;
+        align-content: stretch;
+    }
+
+    .link-div {
+        padding-right: 1vw;
+    }
+
+    .link-div:nth-child(1) {
+        display: block;
+        flex-grow: 0;
+        flex-shrink: 1;
+        flex-basis: auto;
+        align-self: auto;
+        order: 0;
+    }
+
+    .link-div:nth-child(2) {
+        display: block;
+        flex-grow: 0;
+        flex-shrink: 1;
+        flex-basis: auto;
+        align-self: auto;
+        order: 0;
+    }
+
+    .link-div:nth-child(3) {
+        display: block;
+        flex-grow: 0;
+        flex-shrink: 1;
+        flex-basis: auto;
+        align-self: auto;
+        order: 0;
+    }
+
+    .link-div:nth-child(4) {
+        display: block;
+        flex-grow: 0;
+        flex-shrink: 1;
+        flex-basis: auto;
+        align-self: auto;
+        order: 0;
+    }
+
+    .link-div:nth-child(5) {
+        display: block;
+        flex-grow: 0;
+        flex-shrink: 1;
+        flex-basis: auto;
+        align-self: auto;
+        order: 0;
+    }
+
+    .link-div:nth-child(6) {
+        display: block;
+        flex-grow: 0;
+        flex-shrink: 1;
+        flex-basis: auto;
+        align-self: auto;
+        order: 0;
+    }
 }

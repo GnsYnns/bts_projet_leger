@@ -2,8 +2,7 @@
 <main>
     <!-- grid container for all listings  -->
     <div class="grid-container">
-
-        @for ($i = 0; $i < 20; $i++) <!-- individual listings -->
+        @for ($i = 0; $i < 20; $i++)<!-- individual listings -->
             <div class="listing">
                 <img class="listing-icon" tabindex="0" src="./icons/heart2.png" alt="heart-icon" />
                 <a href="#">
@@ -26,7 +25,6 @@
                 </a>
             </div>
             @endfor
-
     </div>
 
     <!-- show more button  -->
