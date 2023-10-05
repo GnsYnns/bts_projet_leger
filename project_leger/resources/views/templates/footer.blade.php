@@ -2,27 +2,27 @@
 
 <footer id="footer">
     <div class="support">
-        <h4>Support</h4>
+        <h4>{{__('Support')}}</h4>
         <a href="">
-            <p>Help Centre</p>
+            <p>{{__('Help Centre')}}</p>
         </a>
         <a href="">
-            <p>Supporting people with disabilities</p>
+            <p>{{__('Supporting people with disabilities')}}</p>
         </a>
         <a href="">
-            <p>Cancellation options</p>
+            <p>{{__('Cancellation options')}}</p>
         </a>
     </div>
     <div class="ancillary">
 
         <div class="link">
             <ul class="link-flex">
-                <p class="link-div">© 2023 Airbnb, Inc.</p>
-                <li class="link-div"><a href="">Confidentialité</a></li>
-                <li class="link-div"><a href="">Conditions générales</a></li>
-                <li class="link-div"><a href="">Plan du site</a></li>
-                <li class="link-div"><a href="">Fonctionnement du site</a></li>
-                <li class="link-div"><a href="">Infos sur l'entreprise</a></li>
+                <p class="link-div">{{__('© 2023 Airbnb, Inc.')}}</p>
+                <li class="link-div"><a href="">{{__('Privacy')}}</a></li>
+                <li class="link-div"><a href="">{{__('Terms & Conditions')}}</a></li>
+                <li class="link-div"><a href="">{{__('Site map')}}</a></li>
+                <li class="link-div"><a href="">{{__('Site operation')}}</a></li>
+                <li class="link-div"><a href="">{{__('Company info')}}</a></li>
             </ul>
         </div>
 
@@ -33,12 +33,12 @@
             </div>
             <div class="text">
                 <a href="">
-                    <a href="/en">English (GB)</a>
+                    <a href="/en">{{__('English (GB)')}}</a>
                 </a>
             </div>
             <div class="text">
                 <a href="">
-                    <h5>£ GBP</h5>
+                    <h5>{{__('£ GBP')}}</h5>
                 </a>
             </div>
         </div>
