@@ -4,7 +4,7 @@
     <div class="support">
         <h4>{{__('Support')}}</h4>
         <a href="">
-            <p>{{__('Help Centre')}}</p>
+            <p>{{__('Help Center')}}</p>
         </a>
         <a href="">
             <p>{{__('Supporting people with disabilities')}}</p>
