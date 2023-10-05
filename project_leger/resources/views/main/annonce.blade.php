@@ -31,7 +31,7 @@
 
     <div class="show-more" id="show-more">
         <div class="button" tabindex="0">
-            <a href="#show-more">Show more</a>
+            <a href="#show-more">{{__('Show more')}}</a>
         </div>
     </div>
 </main>
