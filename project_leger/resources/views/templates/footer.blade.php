@@ -3,13 +3,13 @@
 <footer id="footer">
     <div class="support">
         <h4>{{__('Support')}}</h4>
-        <a href="">
+        <a href="/support">
             <p>{{__('Help Center')}}</p>
         </a>
-        <a href="">
+        <a href="/disabilities">
             <p>{{__('Supporting people with disabilities')}}</p>
         </a>
-        <a href="">
+        <a href="/cancel">
             <p>{{__('Cancellation options')}}</p>
         </a>
     </div>
@@ -18,11 +18,11 @@
         <div class="link">
             <ul class="link-flex">
                 <p class="link-div">{{__('© 2023 Airbnb, Inc.')}}</p>
-                <li class="link-div"><a href="">{{__('Privacy')}}</a></li>
-                <li class="link-div"><a href="">{{__('Terms & Conditions')}}</a></li>
-                <li class="link-div"><a href="">{{__('Site map')}}</a></li>
-                <li class="link-div"><a href="">{{__('Site operation')}}</a></li>
-                <li class="link-div"><a href="">{{__('Company info')}}</a></li>
+                <li class="link-div"><a href="/privacy">{{__('Privacy')}}</a></li>
+                <li class="link-div"><a href="/terms">{{__('Terms & Conditions')}}</a></li>
+                <li class="link-div"><a href="/map">{{__('Site map')}}</a></li>
+                <li class="link-div"><a href="/operation">{{__('Site operation')}}</a></li>
+                <li class="link-div"><a href="/info">{{__('Company info')}}</a></li>
             </ul>
         </div>
 

@@ -18,10 +18,19 @@ Route::get('/', function () {
     return view('accueil');
 });
 
-Route::get('/{locale}', function (string $locale) {
-    if (! in_array($locale, ['en', 'fr'])) {
+Route::get('/{lang}', function (string $lang) {
+    if (! in_array($lang, ['en', 'fr'])) {
         abort(400);
+    } else {
+        App::setLocale($lang);
     }
-    App::setLocale($locale);
     return view('accueil');
+});
+
+Route::get('/{locale}', function (string $locale) {
+    if (! in_array($locale, ['cancel','disabilities','help','info','map','operation','privacy','terms'])) {
+        return view('accueil');
+    } else {
+        return view('annex.$locale');
+    }
 });
