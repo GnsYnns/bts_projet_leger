@@ -1,0 +1,13 @@
+php artisan make:factory UtilisateurFactory --model=Utilisateur
+php artisan make:factory AnnonceFactory --model=Annonce
+php artisan make:factory CommandeFactory --model=Commande
+php artisan make:factory CommentaireFactory --model=Commentaire
+php artisan make:factory MessageFactory --model=Message
+
+
+
+php artisan make:seed UtilisateurSeeder
+php artisan make:seed AnnonceSeeder
+php artisan make:seed CommandeSeeder
+php artisan make:seed CommentaireSeeder
+php artisan make:seed MessageSeeder
