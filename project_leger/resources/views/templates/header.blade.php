@@ -28,7 +28,7 @@
                     </div>
                     <div class="text">
                         <a href="#">
-                            <h4>{{ __('Add guests')}}</h4>
+                            <h4>{{ __('Any week')}}</h4>
                         </a>
                     </div>
                     <div class="last-text">
@@ -135,7 +135,7 @@
 
                                             <div class="place-type-option">
                                                 <div class="place-text">
-                                                    <h5>{{_('Private room')}}</h5>
+                                                    <h5>{{__('Private room')}}</h5>
                                                     <p>
                                                         {{__('Your own room in a home or a hotel, plus some shared common spaces')}}
                                                     </p>
@@ -368,7 +368,7 @@
                                                     name="guesthouse" value="guesthouse" />
                                                 <label for="guesthouse"><img src="./icons/guesthouse.svg"
                                                         alt="guesthouse-icon" />
-                                                    <p>{{__('Guest house')}}</p>
+                                                    <p>{{__('Guest House')}}</p>
                                                 </label>
                                             </div>
                                             <div class="property-item">
@@ -385,11 +385,11 @@
 
                                     <div class="amenities" id="amenities">
                                         <h3>{{__('Amenities')}}</h3>
-                                        <h4>Essentials</h4>
+                                        <h4>{{__('Essentials')}}</h4>
 
                                         <div>
                                             <div class="amenities-text">
-                                                <h5>Wifi</h5>
+                                                <h5>{{__('Wifi')}}</h5>
                                             </div>
                                             <div class="checkbox-container">
                                                 <input type="checkbox" id="wifi" name="wifi" />
@@ -398,7 +398,7 @@
 
                                         <div>
                                             <div class="amenities-text">
-                                                <h5>Kitchen</h5>
+                                                <h5>{{__('Kitchen')}}</h5>
                                             </div>
                                             <div class="checkbox-container">
                                                 <input type="checkbox" id="kitchen" name="kitchen" />
@@ -407,7 +407,7 @@
 
                                         <div>
                                             <div class="amenities-text">
-                                                <h5>Washing machine</h5>
+                                                <h5>{{__('Washing machine')}}</h5>
                                             </div>
                                             <div class="checkbox-container">
                                                 <input type="checkbox" id="washing" name="washing" />
@@ -416,7 +416,7 @@
 
                                         <div>
                                             <div class="amenities-text">
-                                                <h5>Dryer</h5>
+                                                <h5>{{__('Dryer')}}</h5>
                                             </div>
                                             <div class="checkbox-container">
                                                 <input type="checkbox" id="dryer" name="dryer" />
@@ -425,26 +425,25 @@
 
                                         <div>
                                             <div class="amenities-text">
-                                                <h5>Air conditioning</h5>
+                                                <h5>{{__('Air conditioning')}}</h5>
                                             </div>
                                             <div class="checkbox-container">
                                                 <input type="checkbox" id="air" name="air" />
                                             </div>
                                         </div>
 
-                                        <a href="#amenities">Show more</a>
+                                        <a href="#amenities">{{__('Show more')}}</a>
                                     </div>
 
                                     <!-- booking options  -->
 
                                     <div class="booking-options">
-                                        <h3>Booking options</h3>
+                                        <h3>{{__('Booking options')}}</h3>
                                         <div class="switch">
                                             <div class="switch-text">
-                                                <h5>Instant Book</h5>
+                                                <h5>{{__('Instant Book')}}</h5>
                                                 <p>
-                                                    Listings you can book without waiting for host
-                                                    approval
+                                                    {{__('Listings you can book without waiting for host approval')}}
                                                 </p>
                                             </div>
                                             <div class="toggle-div">
@@ -455,8 +454,8 @@
 
                                         <div class="switch">
                                             <div>
-                                                <h5>Self check-in</h5>
-                                                <p>Easy access to the property once you arrive</p>
+                                                <h5>{{__('Self check-in')}}</h5>
+                                                <p>{{__('Easy access to the property once you arrive')}}</p>
                                             </div>
 
                                             <input class="toggle" type="checkbox" id="toggle-2" name="toggle" />
@@ -467,13 +466,13 @@
                                     <!-- accessibility features  -->
 
                                     <div class="accessibility" id="accessibility">
-                                        <h3>Accessibility features</h3>
+                                        <h3>{{__('Accessibility features')}}</h3>
 
-                                        <h4>Guest entrance and parking</h4>
+                                        <h4>{{__('Guest entrance and parking')}}</h4>
 
                                         <div>
                                             <div class="access-text">
-                                                <h5>Step-free guest entrance</h5>
+                                                <h5>{{__('Step-free guest entrance')}}</h5>
                                             </div>
                                             <div class="checkbox-container">
                                                 <input type="checkbox" id="access-1" name="access-1" />
@@ -483,8 +482,7 @@
                                         <div>
                                             <div class="access-text">
                                                 <h5>
-                                                    Guest entrance wider than 32 inches (81
-                                                    centimetres)
+                                                    {{__('Guest entrance wider than 32 inches (81 centimeters)')}}
                                                 </h5>
                                             </div>
                                             <div class="checkbox-container">
@@ -494,24 +492,24 @@
 
                                         <div>
                                             <div class="access-text">
-                                                <h5>Accessible parking spot</h5>
+                                                <h5>{{__('Accessible parking spot')}}</h5>
                                             </div>
                                             <div class="checkbox-container">
                                                 <input type="checkbox" id="access-3" name="access-3" />
                                             </div>
                                         </div>
 
-                                        <a href="#accessibility">Show more</a>
+                                        <a href="#accessibility">{{__('Show more')}}</a>
                                     </div>
 
                                     <!-- top-tier stuff  -->
 
                                     <div class="top-tier">
-                                        <h3>Top-tier stays</h3>
+                                        <h3>{{__('Top-tier stays')}}</h3>
                                         <div>
                                             <div>
-                                                <h5>Superhost</h5>
-                                                <p>Stay with recognised hosts</p>
+                                                <h5>{{__('Superhost')}}</h5>
+                                                <p>{{__('Stay with recognized hosts')}}</p>
                                             </div>
                                             <div class="toggle-div">
                                                 <input class="toggle" type="checkbox" id="toggle-3" name="toggle" />
@@ -521,8 +519,8 @@
 
                                         <div>
                                             <div>
-                                                <h5>welocation Plus</h5>
-                                                <p>Every Plus home is reviewed for quality</p>
+                                                <h5>{{__('Welocation Plus')}}</h5>
+                                                <p>{{__('Every Plus home is reviewed for quality')}}</p>
                                             </div>
                                             <div class="toggle-div">
                                                 <input class="toggle" type="checkbox" id="toggle-4" name="toggle" />
@@ -534,32 +532,32 @@
                                     <!-- language  -->
 
                                     <div class="language" id="language">
-                                        <h3>Host language</h3>
+                                        <h3>{{__('Host language')}}</h3>
                                         <div>
-                                            <h5>English</h5>
+                                            <h5>{{__('English')}}</h5>
                                             <input type="checkbox" id="eng" name="eng" />
                                         </div>
 
                                         <div>
-                                            <h5>French</h5>
+                                            <h5>{{__('French')}}</h5>
                                             <input type="checkbox" id="fre" name="fre" />
                                         </div>
 
                                         <div>
-                                            <h5>German</h5>
+                                            <h5>{{__('German')}}</h5>
                                             <input type="checkbox" id="ger" name="ger" />
                                         </div>
 
-                                        <a href="#language">Show more</a>
+                                        <a href="#language">{{__('Show more')}}</a>
                                     </div>
 
                                     <!-- filter footer  -->
 
                                     <div class="filter-footer" id="filter-footer">
                                         <div>
-                                            <div><a href="#filter-footer">Clear all</a></div>
+                                            <div><a href="#filter-footer">{{__('Clear all')}}</a></div>
                                             <div class="more-box" tabindex="0">
-                                                <a href="#filter-footer">Show 978 homes</a>
+                                                <a href="#filter-footer">{{__('Show')}} 978 {{__('homes')}}</a>
                                             </div>
                                         </div>
                                     </div>
@@ -575,7 +573,7 @@
         <div class="end-container">
             <div class="text">
                 <a href="#">
-                    <h4>Welocation your home</h4>
+                    <h4>{{__('Welocation your home')}}</h4>
                 </a>
             </div>
             <div class="world">
@@ -591,23 +589,23 @@
                         <img class="login-icon" src="./icons/login2.png" alt="login" /></a>
                     <div class="popup-menu">
                         <a style="font-weight: 600" href="#">
-                            <p>Login</p>
+                            <p>{{__('Login')}}</p>
                         </a>
 
                         <a style="margin-bottom: 0.75rem" href="#">
-                            <p>Sign up</p>
+                            <p>{{__('Sign up')}}</p>
                         </a>
 
                         <a href="#" style="border-top: 0.01rem solid rgb(225, 225, 225)">
-                            <p>Welocation your home</p>
+                            <p>{{__('Welocation your home')}}</p>
                         </a>
 
                         <a href="#">
-                            <p>Host an experience</p>
+                            <p>{{__('Host an experience')}}</p>
                         </a>
 
                         <a href="#">
-                            <p>Help</p>
+                            <p>{{__('Help')}}</p>
                         </a>
                     </div>
                 </div>
@@ -621,7 +619,7 @@
             <div class="scroll-icon">
                 <a href="#">
                     <img class="icon" src="./icons/rocket.svg" alt="place-icon" />
-                    <p>OMG!</p>
+                    <p>{{__('OMG!')}}</p>
                 </a>
             </div>
         </div>
@@ -630,7 +628,7 @@
             <div class="scroll-icon">
                 <a href="#">
                     <img class="icon" src="./icons/countryside.svg" alt="place-icon" />
-                    <p>Countryside</p>
+                    <p>{{__('Countryside')}}</p>
                 </a>
             </div>
         </div>
@@ -639,7 +637,7 @@
             <div class="scroll-icon">
                 <a href="#">
                     <img class="icon" src="./icons/historical.svg" alt="place-icon" />
-                    <p>Historical homes</p>
+                    <p>{{__('Historical homes')}}</p>
                 </a>
             </div>
         </div>
@@ -648,7 +646,7 @@
             <div class="scroll-icon">
                 <a href="#">
                     <img class="icon" src="./icons/adapted.svg" alt="place-icon" />
-                    <p>Adapted</p>
+                    <p>{{__('Adapted')}}</p>
                 </a>
             </div>
         </div>
@@ -657,7 +655,7 @@
             <div class="scroll-icon">
                 <a href="#">
                     <img class="icon" src="./icons/mansion.svg" alt="place-icon" />
-                    <p>Mansions</p>
+                    <p>{{__('Mansions')}}</p>
                 </a>
             </div>
         </div>
@@ -666,7 +664,7 @@
             <div class="scroll-icon">
                 <a href="#">
                     <img class="icon" src="./icons/arctic.svg" alt="place-icon" />
-                    <p>Arctic</p>
+                    <p>{{__('Arctic')}}</p>
                 </a>
             </div>
         </div>
@@ -675,7 +673,7 @@
             <div class="scroll-icon">
                 <a href="#">
                     <img class="icon" src="./icons/b&b.svg" alt="place-icon" />
-                    <p>Bed & Breakfast</p>
+                    <p>{{__('Bed & Breakfast')}}</p>
                 </a>
             </div>
         </div>
@@ -684,7 +682,7 @@
             <div class="scroll-icon">
                 <a href="#">
                     <img class="icon" src="./icons/hut.svg" alt="place-icon" />
-                    <p>Huts</p>
+                    <p>{{__('Huts')}}</p>
                 </a>
             </div>
         </div>
@@ -693,7 +691,7 @@
             <div class="scroll-icon">
                 <a href="#">
                     <img class="icon" src="./icons/luxe.svg" alt="place-icon" />
-                    <p>Luxe</p>
+                    <p>{{__('Luxe')}}</p>
                 </a>
             </div>
         </div>
@@ -702,7 +700,7 @@
             <div class="scroll-icon">
                 <a href="#">
                     <img class="icon" src="./icons/view.svg" alt="place-icon" />
-                    <p>Amazing views</p>
+                    <p>{{__('Amazing views')}}</p>
                 </a>
             </div>
         </div>
@@ -711,7 +709,7 @@
             <div class="scroll-icon">
                 <a href="#">
                     <img class="icon" src="./icons/creative.svg" alt="place-icon" />
-                    <p>Creative spaces</p>
+                    <p>{{__('Creative spaces')}}</p>
                 </a>
             </div>
         </div>
@@ -720,7 +718,7 @@
             <div class="scroll-icon">
                 <a href="#">
                     <img class="icon" src="./icons/beach.svg" alt="place-icon" />
-                    <p>Beachfront</p>
+                    <p>{{__('Beachfront')}}</p>
                 </a>
             </div>
         </div>
@@ -729,7 +727,7 @@
             <div class="scroll-icon">
                 <a href="#">
                     <img class="icon" src="./icons/boat.svg" alt="place-icon" />
-                    <p>Boats</p>
+                    <p>{{__('Boats')}}</p>
                 </a>
             </div>
         </div>
@@ -738,7 +736,7 @@
             <div class="scroll-icon">
                 <a href="#">
                     <img class="icon" src="./icons/desert.svg" alt="place-icon" />
-                    <p>Desert</p>
+                    <p>{{__('Desert')}}</p>
                 </a>
             </div>
         </div>
@@ -747,7 +745,7 @@
             <div class="scroll-icon">
                 <a href="#">
                     <img class="icon" src="./icons/pool.svg" alt="place-icon" />
-                    <p>Pools</p>
+                    <p>{{__('Pools')}}</p>
                 </a>
             </div>
         </div>
@@ -756,7 +754,7 @@
             <div class="scroll-icon">
                 <a href="#">
                     <img class="icon" src="./icons/island.svg" alt="place-icon" />
-                    <p>Islands</p>
+                    <p>{{__('Islands')}}</p>
                 </a>
             </div>
         </div>
@@ -765,7 +763,7 @@
             <div class="scroll-icon">
                 <a href="#">
                     <img class="icon" src="./icons/mountain.svg" alt="place-icon" />
-                    <p>Mountains</p>
+                    <p>{{__('Mountains')}}</p>
                 </a>
             </div>
         </div>
@@ -774,7 +772,7 @@
             <div class="scroll-icon">
                 <a href="#">
                     <img class="icon" src="./icons/tent2.svg" alt="place-icon" />
-                    <p>Glamping</p>
+                    <p>{{__('Glamping')}}</p>
                 </a>
             </div>
         </div>
@@ -783,7 +781,7 @@
             <div class="scroll-icon">
                 <a href="#">
                     <img class="icon" src="./icons/cabin.svg" alt="place-icon" />
-                    <p>Cabins</p>
+                    <p>{{__('Cabins')}}</p>
                 </a>
             </div>
         </div>
@@ -792,7 +790,7 @@
             <div class="scroll-icon">
                 <a href="#">
                     <img class="icon" src="./icons/trending.svg" alt="place-icon" />
-                    <p>Trending</p>
+                    <p>{{__('Trending')}}</p>
                 </a>
             </div>
         </div>
@@ -801,7 +799,7 @@
             <div class="scroll-icon">
                 <a href="#">
                     <img class="icon" src="./icons/park.svg" alt="place-icon" />
-                    <p>Parks</p>
+                    <p>{{__('Parks')}}</p>
                 </a>
             </div>
         </div>
@@ -810,7 +808,7 @@
             <div class="scroll-icon">
                 <a href="#">
                     <img class="icon" src="./icons/castle.svg" alt="place-icon" />
-                    <p>Castles</p>
+                    <p>{{__('Castles')}}</p>
                 </a>
             </div>
         </div>
@@ -819,7 +817,7 @@
             <div class="scroll-icon">
                 <a href="#">
                     <img class="icon" src="./icons/paris.svg" alt="place-icon" />
-                    <p>Cities</p>
+                    <p>{{__('Cities')}}</p>
                 </a>
             </div>
         </div>
@@ -828,7 +826,7 @@
             <div class="scroll-icon">
                 <a href="#">
                     <img class="icon" src="./icons/caves.svg" alt="place-icon" />
-                    <p>Caves</p>
+                    <p>{{__('Caves')}}</p>
                 </a>
             </div>
         </div>
@@ -837,7 +835,7 @@
             <div class="scroll-icon">
                 <a href="#">
                     <img class="icon" src="./icons/design.svg" alt="place-icon" />
-                    <p>Design</p>
+                    <p>{{__('Design')}}</p>
                 </a>
             </div>
         </div>
@@ -846,7 +844,7 @@
             <div class="scroll-icon">
                 <a href="#">
                     <img class="icon" src="./icons/skiing.svg" alt="place-icon" />
-                    <p>Skiing</p>
+                    <p>{{__('Skiing')}}</p>
                 </a>
             </div>
         </div>
@@ -855,7 +853,7 @@
             <div class="scroll-icon">
                 <a href="#">
                     <img class="icon" src="./icons/play.svg" alt="place-icon" />
-                    <p>Play</p>
+                    <p>{{__('Play')}}</p>
                 </a>
             </div>
         </div>
